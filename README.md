@@ -16,10 +16,7 @@ SlackConfig.java: A configuration class used to set slack incoming webhook URL.
 
 src/main/resources: Contains application properties and other resources.
 
-application.properties: Workspace configurations of the app.
-Prerequisites
-
-Java version seventeen
+Java version17
 
 Maven
 
@@ -56,9 +53,6 @@ Sending a Slack Message
 
 To post a message into slack channel, make POST request at /api/slack/message endpoint as shown below;
 
-bash
-
-Copy code
 
 POST http://localhost:8080/api/slack/message
 
